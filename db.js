@@ -31,7 +31,7 @@ if( process.env.DATABASE_URL ){
 
 }else{
   configs = {
-    user: 'valenlyn',
+    user: 'siangeeeo',
     host: '127.0.0.1',
     database: 'water',
     port: 5432

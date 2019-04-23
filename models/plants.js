@@ -81,10 +81,8 @@ module.exports = (dbPoolInstance) => {
                                         owner_email: queryResultOwner.rows[0].email,
                                         reminder_type: queryResult.rows[0].reminder_type
                                     }
-
                         airtableAddReminder(values);
                         callback(queryResult.rows);
-
                     }
                 })
             }
