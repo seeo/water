@@ -81,7 +81,7 @@ class Test extends React.Component {
 
                           <td>
                             <form method="POST">
-                                 <button type="submit" formaction={plantWaterLink} class="water-sm">mark as watered</button>
+                                 <button type="submit" formaction={plantWaterLink} class="water-sm">ed</button>
                             </form>
                         </td>
                     </tr>
